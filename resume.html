@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>April Leathers - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>April Leathers</h1>
+        <p>Principal Quality Analyst | Software Engineering Student</p>
+        <nav>
+            <a href="resume.html">Resume</a> | 
+            <a href="cover-letter.html">Cover Letter</a> | 
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
+            <article>
+                <p>Experienced and results-driven <strong>Principal Quality Analyst</strong> seeking a challenging role to leverage my strategic planning skills and creative problem-solving abilities to drive business success.</p>
+                <hr>
+            </article>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <article>
+                <h3>Principal Quality Analyst - Northrop Grumman</h3>
+                <p><em>2025 - Present</em> | Charlottesville, VA</p>
+                <ul>
+                    <li>Monitor Production Quality – Perform real-time inspection of raw materials and finished goods.</li>
+                    <li>Root-Cause Analysis & CAPA – Investigate non-conformances using 5-Why or Fishbone analyses.</li>
+                    <li>Statistical Process Control – Generate and interpret control charts and capability indices ($C_p$, $C_{pk}$).</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Lead Electromechanical 3 Inspector - Northrop Grumman</h3>
+                <p><em>2020 - 2025</em> | Charlottesville, VA</p>
+                <ul>
+                    <li>Served as Lead Inspector and AS9100 Internal Auditor.</li>
+                    <li>Held certifications in <span>J-STD</span>, <span>IPC 610</span>, <span>IPC 620</span>, and <span>NASA Standards</span>.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Education History</h2>
+            <table>
+                <caption>Education Overview</caption>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Location</th>
+                        <th>Dates</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BA Software Engineering</td>
+                        <td>Western Governors University</td>
+                        <td>Online</td>
+                        <td>2026 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>Associates Software Engineering</td>
+                        <td>Piedmont Virginia Community College</td>
+                        <td>Charlottesville, VA</td>
+                        <td>2021 - 2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Page Loaded Info</h2>
+            <div id="date-display"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 April Leathers. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Inline JS to populate date in div
+        document.getElementById('date-display').innerHTML = "<p>Today's Date: " + new Date().toLocaleDateString() + "</p>";
+        // Inline JS to write to console
+        console.log("Resume page successfully loaded for April Leathers.");
+    </script>
+</body>
+</html>
