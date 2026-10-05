@@ -1,51 +1,112 @@
-<section>
-  <h2>Contact Form</h2>
-  <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
-    <div class="form-group">
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" required>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Goals - April Leathers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <div class="form-group">
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname" required>
-    </div>
+  <header>
+    <h1>April Leathers - Professional Portfolio</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="resume.html">Resume</a> |
+      <a href="career-goals.html">Career Goals</a>
+    </nav>
+    <div id="date-container">Today's Date: <span id="current-date"></span></div>
+  </header>
 
-    <div class="form-group">
-      <label for="company">Company Name:</label>
-      <input type="text" id="company" name="company">
-    </div>
+  <main>
+    <section>
+      <h2>Career Goals & Contact</h2>
+      
+      <!-- Profile Image -->
+      <img src="assets/profile.jpg" alt="April Leathers Profile Picture" width="200">
 
-    <div class="form-group">
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
+      <p>
+        As a Principal Quality Analyst pursuing a BA in Software Engineering at Western Governors University[cite: 1], my goal is to leverage my background in quality assurance, process control, and software development[cite: 1] to drive continuous innovation and high-quality software standards.
+      </p>
 
-    <div class="form-group">
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone">
-    </div>
+      <!-- Audio Section -->
+      <section>
+        <h3>Audio Introduction</h3>
+        <audio controls>
+          <source src="assets/audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
 
-    <div class="form-group">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4"></textarea>
-    </div>
+      <!-- Video Section -->
+      <section>
+        <h3>Video Presentation</h3>
+        <video controls width="320">
+          <source src="assets/video.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </section>
 
-    <fieldset>
-      <legend>Best Contact Time:</legend>
-      <label><input type="radio" id="am" name="time" value="a.m."> a.m.</label>
-      <label><input type="radio" id="pm" name="time" value="p.m."> p.m.</label>
-      <label><input type="radio" id="any" name="time" value="anytime" checked> anytime</label>
-    </fieldset>
+      <!-- Contact Form -->
+      <h3>Contact Me</h3>
+      <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" value="April" required>
+        </div>
 
-    <div class="form-group">
-      <label for="contact_method">Preferred Contact Method:</label>
-      <select id="contact_method" name="contact_method">
-        <option value="phone">phone</option>
-        <option value="email">email</option>
-        <option value="text">text</option>
-      </select>
-    </div>
+        <div class="form-group">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" value="Leathers" required>
+        </div>
+
+        <div class="form-group">
+          <label for="company">Company Name:</label>
+          <input type="text" id="company" name="company" value="Northrop Grumman">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" value="aprilpowers2007@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" value="434-906-2210">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+
+        <fieldset>
+          <legend>Best Contact Time:</legend>
+          <label><input type="radio" id="am" name="time" value="a.m."> a.m.</label>
+          <label><input type="radio" id="pm" name="time" value="p.m."> p.m.</label>
+          <label><input type="radio" id="any" name="time" value="anytime" checked> anytime</label>
+        </fieldset>
+
+        <div class="form-group">
+          <label for="contact_method">Preferred Contact Method:</label>
+          <select id="contact_method" name="contact_method">
+            <option value="email">email</option>
+            <option value="phone">phone</option>
+            <option value="text">text</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 April Leathers. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
 
     <input type="submit" value="Submit">
   </form>
