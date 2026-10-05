@@ -11,8 +11,8 @@
   <header>
     <h1>April Leathers - Professional Portfolio</h1>
     <nav>
-      <a href="index.html">Home</a> |
       <a href="resume.html">Resume</a> |
+      <a href="cover-letter.html">Cover Letter</a> |
       <a href="career-goals.html">Career Goals</a>
     </nav>
     <div id="date-container">Today's Date: <span id="current-date"></span></div>
@@ -23,10 +23,10 @@
       <h2>Career Goals & Contact</h2>
       
       <!-- Profile Image -->
-      <img src="assets/profile.jpg" alt="April Leathers Profile Picture" width="200">
+      <img src="nathan-campbell-mvq-PpRkWZo-unsplash.jpg" alt="April Leathers Profile Picture" width="200">
 
       <p>
-        As a Principal Quality Analyst pursuing a BA in Software Engineering at Western Governors University[cite: 1], my goal is to leverage my background in quality assurance, process control, and software development[cite: 1] to drive continuous innovation and high-quality software standards.
+        As a Principal Quality Analyst pursuing a BA in Software Engineering at Western Governors University, my goal is to leverage my background in quality assurance, process control, and software development to drive continuous innovation and high-quality software standards.
       </p>
 
       <p>
@@ -38,7 +38,7 @@
       <section>
         <h3>Audio Introduction</h3>
         <audio controls>
-          <source src="assets/audio.mp3" type="audio/mpeg">
+          <source src="audio.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </section>
@@ -47,7 +47,7 @@
       <section>
         <h3>Video Presentation</h3>
         <video controls width="320">
-          <source src="assets/video.mp4" type="video/mp4">
+          <source src="video.mp4" type="video/mp4">
           Your browser does not support the video element.
         </video>
       </section>
@@ -109,6 +109,10 @@
   <footer>
     <p>&copy; 2026 April Leathers. All rights reserved.</p>
   </footer>
+
+  <script>
+    document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+  </script>
 
 </body>
 </html>
