@@ -8,23 +8,22 @@
 /* 2. Element Selector */
 body {
     font-family: Arial, sans-serif; /* font property */
-    color: #222222;               /* color property */
-    background-color: #f0f2f5;    /* background-color property */
-    padding: 20px;                /* padding property */
+    color: #222222;            /* color property */
+    background-color: #f0f2f5; /* background-color property */
+    padding: 20px;             /* padding property */
 }
 
 header {
     background-color: #1a365d;
     color: white;
     padding: 15px;
-    margin-bottom: 20px;          /* margin property */
-<img src="headshot.jpg" alt="April Leathers Headshot" width="150">
+    margin-bottom: 20px;       /* margin property */
 }
 
 /* 3. Descendant Selector */
 nav a {
     color: white;
-    font-style: italic;           /* font-style property */
+    font-style: italic;        /* font-style property */
     margin: 0 10px;
 }
 
@@ -36,7 +35,7 @@ nav a:hover {
 main {
     background-color: white;
     padding: 20px;
-    border: 1px solid #cccccc;    /* border property */
+    border: 1px solid #cccccc; /* border property */
 }
 
 /* 5. ID Selector */
@@ -50,6 +49,11 @@ main {
 ul {
     list-style-type: square;
     margin-left: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333333;
+    padding: 8px;
 }
 
 table, th, td {
