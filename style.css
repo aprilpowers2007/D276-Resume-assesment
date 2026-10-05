@@ -1,61 +1,65 @@
 /* 1. Universal Selector */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* 2. Element Selector */
 body {
-    font-family: Arial, sans-serif; /* font property */
-    color: #222222;            /* color property */
-    background-color: #f0f2f5; /* background-color property */
-    padding: 20px;             /* padding property */
+  font-family: Arial, sans-serif; /* font property */
+  color: #222222;            /* color property */
+  background-color: #f0f2f5; /* background-color property */
+  padding: 20px;             /* padding property */
 }
 
 header {
-    background-color: #1a365d;
-    color: white;
-    padding: 15px;
-    margin-bottom: 20px;       /* margin property */
+  background-color: #1a365d;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;       /* margin property */
 }
 
 /* 3. Descendant Selector */
 nav a {
-    color: white;
-    font-style: italic;        /* font-style property */
-    margin: 0 10px;
+  color: white;
+  font-style: italic;        /* font-style property */
+  margin: 0 10px;
 }
 
 /* 4. Pseudo-class Selector */
 nav a:hover {
-    color: #f6ad55;
+  color: #f6ad55;
 }
 
 main {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #cccccc; /* border property */
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #cccccc; /* border property */
 }
 
 /* 5. ID Selector */
 #date-container {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #e2e8f0;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e2e8f0;
 }
 
-/* 6. List-Style Property */
+/* 6. Class Selector */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* 7. List-Style Property */
 ul {
-    list-style-type: square;
-    margin-left: 20px;
+  list-style-type: square;
+  margin-left: 20px;
 }
 
 table, th, td {
-    border: 1px solid #333333;
-    padding: 8px;
+  border: 1px solid #333333;
+  padding: 8px;
 }
-
 table, th, td {
     border: 1px solid #333333;
     padding: 8px;
